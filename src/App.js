@@ -1,11 +1,23 @@
 import React from 'react';
-import {Button} from 'antd'
+import {Button,Row,Col} from 'antd'
  
 
 function App() {
   return (
     <div className="App">
       <Button type="primary">测试</Button>
+      <Row>
+      <Col xs={8}   md={24}   >
+      Col
+    </Col>
+    <Col xs={8}   md={24} >
+      Col
+    </Col>
+    <Col xs={8}   md={24}>
+      Col
+    </Col>
+    </Row>
+     
     </div>
   );
 }
